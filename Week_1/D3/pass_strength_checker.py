@@ -1,3 +1,7 @@
+## How to boolean to perform checks instead of using too many loops or conditional statments
+
+
+
 def password(code):
         if(len(code) < 8 ):
             return "Pass must have atleast 8 characters"
@@ -25,3 +29,5 @@ def password(code):
 
 abc = input("Enter the password: ")
 print(password(abc))
+
+#concluded week 1
